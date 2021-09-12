@@ -10,12 +10,15 @@
 <body>
     <header>
         <section class="wrap-header">
-            <div class="container-header">
+            <div class="container-header" id="container">
                 <h1 class="logo">DevChallenge</h1>
                 <div class="box-menu">
                     <a class="link" href="#">Home</a>
                     <a class="link" href="#">Features</a>
                     <a class="link" href="#">Contact</a>
+                </div>
+                <div class="box-menu-mobile">
+                    <img class="menu-mobile" id="#btnMenu" src="assets/menu.png" alt="menu">
                 </div>
             </div>
         </section>
@@ -24,9 +27,11 @@
         <section class="wrap-main">
             <div class="container-main">
                 <div class="box-graphics">
-                    <h2>Create amazing graphics</h2>
-                    <p>Colaborate and create beautifull graphics with your team</p>
-                    <button>Start now</button>
+                    <h2 class="subtitle">Create amazing graphics</h2>
+                    <p class="paragraph">Colaborate and create beautifull graphics with your team</p>
+                    <div class="box-button">
+                        <button class="btn">Start now</button>
+                    </div>
                 </div>
                 <div class="box-img">
                     <img class="img-team" src="assets/team.jpg" alt="team">
@@ -34,5 +39,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
