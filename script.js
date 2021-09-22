@@ -4,7 +4,6 @@ let menu = document.getElementById('menu');
 let openMenu = false;
 
 function changeMenu(){
-   // const container = document.getElementById('container')
     menu.classList.toggle('active')
     
     openMenu = !openMenu

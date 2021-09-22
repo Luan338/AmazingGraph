@@ -136,6 +136,7 @@
     }
 
     .box-menu{
+        display: none;
         position: fixed;
         background: white;
         border-bottom: 1px solid #D2872C;
